@@ -1,0 +1,48 @@
+@media only screen and  (min-width:992px){
+    .posts{
+    width: 65%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: darkblue;
+    margin: 50px auto;
+    box-shadow: 0 0 25px #2b2b2b;
+    h1{
+        text-align: center;
+        color: whitesmoke;
+        margin-bottom: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: capitalize;
+    }
+    p{
+        display: -webkit-box;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        color: whitesmoke;
+        -webkit-box-orient: vertical;
+        box-orient: vertical;
+        -webkit-line-clamp: 3;
+        line-clamp: 3;
+        overflow: hidden;
+    }
+    img{
+        width: 70%;
+        display: block;
+        margin: 10px auto;
+    }
+    a{
+        display: block;
+        background-color: green;
+        text-align: center;
+        margin: 10px auto;
+        width: fit-content;
+        padding: 0 10px;
+        height: 40px;
+        line-height: 40px;
+        text-decoration: none;
+        text-transform: capitalize;
+        color: whitesmoke;
+        font-size: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+}
