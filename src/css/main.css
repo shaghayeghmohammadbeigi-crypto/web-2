@@ -33,3 +33,22 @@
         }
     }
 }
+.parallax{
+    width: 100%;
+    height: calc(100vh - 40px);
+    background-image: url(../images/img-1.png);
+    background-attachment: fixed;
+}
+
+.products{
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: #2b2b2b;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    .product{
+        
+    }
+}
